@@ -51,7 +51,7 @@ A comprehensive machine learning dashboard template built with Streamlit, featur
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/streamlit-ml-dashboard.git
+git clone https://github.com/freewimoe/streamlit-ml-dashboard.git
 cd streamlit-ml-dashboard
 ```
 
