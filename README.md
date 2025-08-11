@@ -68,6 +68,22 @@ streamlit run app/app.py
 4. **Open your browser**
 Navigate to `http://localhost:8501`
 
+## 📊 Sample Data Included
+
+### Try these sample datasets:
+
+**Classification Example (Iris Dataset):**
+- Location: `data/raw/sample_iris.csv`
+- Target: `species` 
+- Features: sepal_length, sepal_width, petal_length, petal_width
+- Problem: Multi-class classification
+
+**Regression Example (House Prices):**
+- Location: `data/raw/sample_house_prices.csv`
+- Target: `price`
+- Features: bedrooms, bathrooms, sqft, age
+- Problem: Regression
+
 ## 📁 Project Structure
 
 ```
@@ -119,25 +135,6 @@ streamlit-ml-dashboard/
 - View comprehensive metrics and visualizations
 - Analyze feature importance and model behavior
 
-## 📊 Sample Data
-
-### Classification Example (Iris Dataset)
-```csv
-sepal_length,sepal_width,petal_length,petal_width,species
-5.1,3.5,1.4,0.2,setosa
-4.9,3.0,1.4,0.2,setosa
-7.0,3.2,4.7,1.4,versicolor
-6.3,3.3,6.0,2.5,virginica
-```
-
-### Regression Example (House Prices)
-```csv
-bedrooms,bathrooms,sqft,age,price
-3,2,1200,15,250000
-4,3,1800,8,380000
-2,1,800,25,180000
-```
-
 ## 🛠️ Technologies Used
 
 - **[Streamlit](https://streamlit.io/)**: Web app framework
@@ -152,6 +149,18 @@ bedrooms,bathrooms,sqft,age,price
 1. Push your code to GitHub
 2. Connect your repository to [Streamlit Cloud](https://streamlit.io/cloud)
 3. Deploy with one click
+
+### Heroku
+```bash
+# Login to Heroku
+heroku login
+
+# Create new app
+heroku create your-app-name
+
+# Deploy
+git push heroku main
+```
 
 ## 🤝 Contributing
 
